@@ -33,11 +33,77 @@ body {
 .wrapper {
     display: flex;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1200px;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px 0px 20px 440px;
+}
+.nav-bar li {
+    /* Frame 2 */
+    /* Auto layout */
+    
+    list-style: none;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    
+    width: 100px;
+    height: 24px;
+}
+
+.nav-bar li a {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;    
+}
+
+.instagram {
+    padding: 7px 20px 20px 0px;
+}
+
+.main-left {
+    width: 1048px;
+    height: 491px;
+    left: 0px;
+    top: 83px;
+    background-image: url('images/background.png'); 
+    background-image: -webkit-linear-gradient(0deg, rgba(31, 31, 31, 0.85) 0, rgba(0,0,0,0.9) 100%), url('images/background.png');
+    background-image: -moz-linear-gradient(90deg, rgba(31, 31, 31, 0.85) 0, rgba(0,0,0,0.9) 100%), url('images/background.png');
+    background-image: linear-gradient(90deg, rgba(31, 31, 31, 0.85) 0, rgba(0,0,0,0.9) 100%), url('images/background.png');
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+.main-right {
+    width: 408px;
+    height: 491px;
+    left: 0px;
+    top: 83px;
+    background: #FFB400;
 }
