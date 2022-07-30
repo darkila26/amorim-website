@@ -1,1 +1,43 @@
 /* adding a comment */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+    /* construction/Text */
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* or 180% */
+    
+    letter-spacing: 0.04em;
+    
+    /* construction/gray */
+    
+    color: #666666;
+}
+
+/* top menu navigation */
+
+.nav-container {
+    background-color: #F5F5F5;
+    height: 72px;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
