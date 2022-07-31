@@ -98,6 +98,7 @@ nav ul {
     background-clip: border-box;
     -webkit-background-size: auto auto;
     background-size: auto auto;
+    padding: 100px 100px 100px 100px;
 }
 
 .main-right {
@@ -106,4 +107,86 @@ nav ul {
     left: 0px;
     top: 83px;
     background: #FFB400;
+    display: flex;
+
+}
+
+.main-left-box {
+    /* Vector 22 */
+
+width: 104px;
+height: 0px;
+
+/* construction/yellow */
+
+border: 5px solid #FFB400;
+transform: rotate(-90deg);
+display: auto;
+}
+
+.main-left-title h1 {
+    width: 600px;
+    height: 100px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 50px;
+    color: white;
+    padding: 2px 10px 100px 40px;
+    margin: -4% 5% 5% 5%;
+}
+
+.main-left p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin: 0px 0px 20px 50px;
+}
+
+.main-left button {
+    background: #FFB400;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 55px;
+    margin: 20px 0px 20px 50px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.main-right-title h1 {
+    padding: 20px 0px 0 30px;
+    color: #2A2A2A;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.main-right-box-title {
+    font-family: 'Rubik';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #2A2A2A;
+    padding: 0 0 0 0;
+    display: flex;
+    margin: 0;
+    background-color: red;
+    width: 100px;
+
+}
+
+.main-right-box img {
+    display: flex;
+    margin: 0;
 }
