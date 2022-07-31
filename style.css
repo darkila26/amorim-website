@@ -124,7 +124,7 @@ transform: rotate(-90deg);
 }
 
 .main-left-title h1 {
-    width: 600px;
+    width: 630px;
     height: 100px;
     font-family: 'Rubik';
     font-style: normal;
@@ -217,4 +217,20 @@ transform: rotate(-90deg);
     letter-spacing: 0.04em;
     color: #FFFFFF;
     text-align: justify;
+}
+
+/* get a quote section */
+.main-quote {
+    display: flex;
+    width: 1440px;
+    height: 134px;
+
+}
+
+.main-quote-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 50px;
 }
