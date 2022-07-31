@@ -6,20 +6,13 @@
 }
 
 body {
-    
-    /* construction/Text */
-    
+        
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 27px;
-    /* or 180% */
-    
-    letter-spacing: 0.04em;
-    
-    /* construction/gray */
-    
+    line-height: 27px;    
+    letter-spacing: 0.04em;    
     color: #666666;
 }
 
@@ -222,8 +215,12 @@ transform: rotate(-90deg);
 /* get a quote section */
 .main-quote {
     display: flex;
-    width: 1440px;
     height: 134px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex: auto; 
+    background: #FFFFFF;
 
 }
 
@@ -233,4 +230,25 @@ transform: rotate(-90deg);
     font-weight: 700;
     font-size: 15px;
     line-height: 50px;
+    flex: 1;
+    justify-content: center;
+    color: #2A2A2A;
+}
+
+.main-quote-button {
+    flex: 1;
+}
+
+.main-quote-button button {
+    width: 330px;
+    height: 65px;
+    border: 4px #FFB400 solid;
+    background-color: #FFFFFF;
+    color: #FFB400;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
 }
